@@ -19,7 +19,7 @@ public class Sniffling {
 		
 		
 		
-		int num = 10;
+	/*	int num = 3;
 		
 		for(int i = 0 ;i < num ; i++)
 		{		
@@ -33,6 +33,26 @@ public class Sniffling {
 			}
 			System.out.println();
 		}
+		*/
+		String[] name = {"조재훈","조재원","조재은"};
+		int[][] point= {
+				{10,20,30},
+				{40,50,60},
+				{70,80,90}
+				};		
+		
+		for(int i = 0 ; i < point.length ; i++)
+		{
+			int sum = 0;
+			
+			for(int j =0 ; j < point.length ; j++) {
+				
+			}
+			System.out.print("평균"+sum/3);
+			System.out.println();
+		}
+		
+		
 	}
 
 }
