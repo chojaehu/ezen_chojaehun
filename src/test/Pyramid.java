@@ -6,18 +6,18 @@ public class Pyramid {
 		// TODO Auto-generated method stub
 		int num = 5;
 		
-		for(int i = 0 ;i < num ; i++)
-		{		
-			for(int j = 0 ; j < num - i ; j++)
-			{
-				System.out.print(" ");
-			}
-			for(int c = 0 ; c<i+(i+1); c++)
-			{
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+//		for(int i = 0 ;i < num ; i++)
+//		{		
+//			for(int j = 0 ; j < num - i ; j++)
+//			{
+//				System.out.print(" ");
+//			}
+//			for(int c = 0 ; c<i+(i+1); c++)
+//			{
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 		
 		
 		
@@ -33,14 +33,14 @@ public class Pyramid {
 		
 		
 		
-//		for(int i = 0 ; i<=num ; i++)
-//		{
-//			for(int j = 0 ;  j <= i; j++)
-//			{
-//				System.out.print("*");
-//			}
-//			System.out.println();
-//		}
+		for(int i = 0 ; i<=num && i<= 10 ; i++)
+		{
+			for(int j = 0 ;  j <= i;  j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
 
 		
