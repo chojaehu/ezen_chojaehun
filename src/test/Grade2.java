@@ -61,9 +61,9 @@ public class Grade2 {
 	public void scoresum() {
 		double sum = 0;
 		sum = math + English + language;
-		System.out.print(String.format("%-10s", sum));
+		System.out.print("합계 : "+String.format("%-10s", sum));
 		sum = sum/3;
-		System.out.print(String.format("%-10s", sum));
+		System.out.print("평균 : "+String.format("%-10s", sum));
 		
 	}
 	
