@@ -8,6 +8,10 @@ public class ExCar {
 		
 		Car car = new Car("벤츠","S클래스",1,300.12);
 		
+		
+		car.setAaa(5);
+		System.out.println("car.getAaa() : "+car.getAaa());
+		
 		System.out.println("car.brnad : "+car.brnad);
 		System.out.println("car.name : "+ car.name);
 		System.out.println("car.carType : "+ car.carType);

@@ -7,6 +7,16 @@ public class Car {
 	int carType;
 	double power;
 	
+	private int aaa;
+	
+	public int getAaa() {
+		return aaa;
+	}
+
+	public void setAaa(int aaa) {
+		this.aaa = aaa;
+	}
+
 	Car(String brnad,String name,int carType,double power){
 		this.brnad =brnad;
 		this.name = name;
