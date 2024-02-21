@@ -18,6 +18,12 @@ public class ExPeople {
 		System.out.println("student.getName()"+ student2.getName());
 		System.out.println("student.getSsn()" + student2.getSsn());
 		System.out.println("student.getStudentNO()" + student2.getStudentNO());
+		
+		int i = 6%10;
+		
+		System.out.println(i);
+		
+		
 	}
 
 }
